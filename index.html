@@ -2,60 +2,22 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Localhost</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="cabecera">
-        <h1 class="logo">Viajes Localhost</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="#seccion">Destinos</a></li>
-                <li><a href="#info">Atención al cliente</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <h1>Viajes Localhost</h1>
+    <p>Escápate sin salir de tu presupuesto.</p>
+    <a href="#lista" class="boton">Ver destinos</a>
 
-    <main>
-        <section class="portada">
-            <h2>Escápate sin salir de tu presupuesto</h2>
-            <p>Escapadas de fin de semana con transporte y alojamiento incluidos.</p>
-            <a href="#seccion" class="boton">Ver destinos</a>
-        </section>
+    <!-- Lista de productos -->
+    <h2 id="lista">Destinos</h2>
+    <ul>
+        <li class="tarjeta">Lisboa</li>
+        <li class="tarjeta">Roma</li>
+        <li class="tarjeta">Ámsterdam</li>
+    </ul>
 
-        <!-- Sección principal de la página -->
-        <section id="seccion" class="listado">
-            <h2>Destinos</h2>
-            <div class="productos">
-                <article class="tarjeta">
-                    <h3>Lisboa</h3>
-                    <p>3 días con tranvía y pastéis de nata.</p>
-                    <span class="precio">249 €</span>
-                </article>
-                <article class="tarjeta">
-                    <h3>Roma</h3>
-                    <p>4 días entre ruinas y pizza.</p>
-                    <span class="precio">329 €</span>
-                </article>
-                <article class="tarjeta">
-                    <h3>Ámsterdam</h3>
-                    <p>3 días en bici por los canales.</p>
-                    <span class="precio">289 €</span>
-                </article>
-            </div>
-        </section>
-
-        <section id="info" class="info">
-            <h2>Atención al cliente</h2>
-            <p>Lunes a viernes: 9:00 – 19:00</p>
-            <p>Teléfono: 900 000 000</p>
-        </section>
-    </main>
-
-    <footer id="contacto" class="pie">
-        <p>Plaza del Viajero, 3 · reservas@viajeslocalhost.es</p>
-    </footer>
+    <p class="pie">Plaza del Viajero, 3</p>
 </body>
 </html>
